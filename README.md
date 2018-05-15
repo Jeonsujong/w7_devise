@@ -6,10 +6,9 @@
 
 ### 오류 내용 / 해결 방법
 
- text_area와 text_field의 크기를 조정하는 문제에서 오랜 시간이 걸렸다. stackoverflow 등에서 해결 방법을 찾았다.
+ text_field의 크기를 조정하는 문제에서 오랜 시간이 걸렸다. stackoverflow 등에서 해결 방법을 찾았다.
  
  ```
- <div><%= f.text_field :title, placeholder: "제목을 입력하세요" %></div>
  <div><%= f.text_area :content, :rows => '20', :cols => '50', placeholder: "내용을 입력하세요" %></div>
  ```
  위와 같이 작성하여 해결했다.
@@ -21,13 +20,13 @@
  자주 접해보는 것만이 익숙해지는 방법일 것이다. 더욱 그럴듯하게 만들지 못한 것이 아쉽지만, 부트스트랩을 적용하여 게시판을 만들어봤다는 점에서 작은 수확이 있는 것 같다.
 
 ### 스크린샷
- !(./app/assets/images/post1.png)
+ ![스크린샷 1](./app/assets/images/post1.png)
  <br>
- !(./app/assets/images/post2.png)
+ ![스크린샷 2](./app/assets/images/post2.png)
  <br>
- !(./app/assets/images/post3.png)
+ ![스크린샷 3](./app/assets/images/post3.png)
  <br>
- !(./app/assets/images/post4.png)
+ ![스크린샷 4](./app/assets/images/post4.png)
  
 ### 참고문서
  1. 건대 멋사 5주차 강의자료
