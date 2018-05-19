@@ -1,3 +1,40 @@
+  @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+ 
+    .jm{
+      font-family: 'Jeju Myeongjo', serif;
+    }
+
+    header{
+      margin-top : 5%;
+      background-color : #d7efe3;
+      color : #8a8c91;
+    }
+    
+    body{
+      background-color : #d7efe3;
+      color : #8a8c91;
+    }
+    
+    .title{
+      margin-left : 5%;
+    }
+
+    .posting{
+      width : 25%;
+      margin : 0 auto;
+      margin-top: 5%;            
+    }
+    
+    .showing{
+      width : 92%;
+      margin : 0 auto;
+      margin-top: 5%;
+    }
+    
+    h5{
+      line-height: 2.3em;
+    }         
+    
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
