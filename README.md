@@ -1,41 +1,32 @@
-# 5주차 과제 : CRUD를 이용한 게시판 만들기
+# 7주차 과제 : CRUD를 이용한 게시판에 devise 추가하기!
 
 ### 구현의도
 
- view_helper, form_helper, RESTful, strong_parameter, before_action을 모두 사용하고, 간단한 부트스트랩을 적용하여 게시판을 만든다.
+ 5주차 과제로 수행했던 'CRUD를 이용한 게시판'에 devise를 탑재하여 더욱 그럴듯하게 만든다.
 
 ### 오류 내용 / 해결 방법
 
- text_field의 크기를 조정하는 문제에서 오랜 시간이 걸렸다. stackoverflow 등에서 해결 방법을 찾았다.
- 
- ```
- <div><%= f.text_area :content, :rows => '20', :cols => '50', placeholder: "내용을 입력하세요" %></div>
- ```
- 위와 같이 작성하여 해결했다.
+ 기록할만한 오류는 없었습니다!
  
 
 ### 간단한 소감
 
- 부트스트랩을 Rails에 적용하는 게 굉장히 어색했다. 그래서 이전에 html과 css 만으로 페이지를 만들 때와는 전혀 다른 느낌이 들었다. 
- 자주 접해보는 것만이 익숙해지는 방법일 것이다. 더욱 그럴듯하게 만들지 못한 것이 아쉽지만, 부트스트랩을 적용하여 게시판을 만들어봤다는 점에서 작은 수확이 있는 것 같다.
+ 수업시간에 현진이와 같이 진행했을 때는 굉장히 쉬운 느낌이었는데, 혼자해보려니까 버벅거리는 점이 다소 있었다.
+ Practice makes perfect! 자주 접해고 익숙해져야겠다.
+ 그리고 정말 예쁘게 만들고 싶은데, 금손이 아니라서 쉽지 않다.. 참고할만한 예제를 찾아봐야겠다.
 
 ### 스크린샷
- ![스크린샷 1](./app/assets/images/post1.png)
+ ![스크린샷 1](./app/assets/images/post5.png)
  <br>
- ![스크린샷 2](./app/assets/images/post2.png)
+ ![스크린샷 2](./app/assets/images/post6.png)
  <br>
- ![스크린샷 3](./app/assets/images/post3.png)
- <br>
- ![스크린샷 4](./app/assets/images/post4.png)
+ ![스크린샷 3](./app/assets/images/post7.png)
  
 ### 참고문서
- 1. 건대 멋사 5주차 강의자료
+ 1. 건대 멋사 7주차 강의자료
  2. 부트스트랩
- 3. https://foundation.zurb.com/forum/posts/2249-text_field-width-and-css
- 4. http://newmanships.com/blog/2014/05/01/resizing-the-width-of-a-text_area-railsbootstrap/
- 5. https://stackoverflow.com/questions/15115052/bootstrap-how-to-set-up-fixed-width-for-td
- 6. https://stackoverflow.com/questions/3259234/ruby-on-rails-how-do-i-add-placeholder-text-to-a-f-text-field
-
+ 3. Mackenzie Child - How to build a blog in rails 4
+ 4. https://github.com/plataformatec/devise    [devise gem page]
  
 
 
